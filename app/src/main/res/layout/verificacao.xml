@@ -91,9 +91,9 @@
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="90dp"
-        android:backgroundTint="#4CAB50"
+        android:backgroundTint="@color/btn_green"
         android:text="Continue"
-        android:textColor="@color/black"
+        android:textColor="@color/btn_text_color"
         android:textSize="18sp"
         app:cornerRadius="10dp" />
 
