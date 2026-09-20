@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_balanca"
+            android:icon="@android:drawable/ic_menu_crop"
+            android:title="Conecte a balança" />
+
+        <item
+            android:id="@+id/nav_monte_prato"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Monte seu prato" />
+
+        <item
+            android:id="@+id/nav_historico"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Histórico" />
+
+        <item
+            android:id="@+id/nav_evolucao"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Evolução" />
+
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Perfil" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_sobre_nos"
+                android:title="Sobre nós" />
+        </menu>
+    </item>
+
+</menu>

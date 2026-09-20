@@ -29,6 +29,13 @@
         <activity
             android:name=".ObjetivoActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".QuestionarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RefeicaoActivity"
+            android:exported="false" />
     </application>
 
 
